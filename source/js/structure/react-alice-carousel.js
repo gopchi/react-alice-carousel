@@ -16,6 +16,7 @@ class AliceCarousel extends React.PureComponent {
       }
     };
 
+    this._slideToItem = this._slideToItem.bind(this);
     this._slideNext = this._slideNext.bind(this);
     this._slidePrev = this._slidePrev.bind(this);
     this._onTouchEnd = this._onTouchEnd.bind(this);
